@@ -21,8 +21,6 @@ $ pip install openai pyaudio pydub
 
 ## Usage
 1. Replace `YOUR_API_KEY` with your OpenAI API key in the `audio_transcription.py` script:
-
-```python
 os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 
 2. Run the script:
