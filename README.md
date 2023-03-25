@@ -14,7 +14,7 @@ This script records audio input from a microphone and transcribes it into text u
 
 1. Clone the repository:
 
-        $ git clone https://github.com/your_username/audio-to-text-transcription.git
+        $ git clone https://github.com/your_username/whisper-realtime-audio-to-text-transcription.git
 
         $ cd audio-to-text-transcription
 
@@ -32,3 +32,5 @@ This script records audio input from a microphone and transcribes it into text u
         $ python audio_transcription.py
 
 3. Speak into your microphone when prompted. The script will continuously record audio and stop recording after detecting 4 seconds of silence. The transcribed text will be printed to the console.
+
+4. Edit the silence_counter on line 39 to adjust how long silence needs to be before transcription starts.
