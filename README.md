@@ -33,4 +33,4 @@ This script records audio input from a microphone and transcribes it into text u
 
 3. Speak into your microphone when prompted. The script will continuously record audio and stop recording after detecting 4 seconds of silence. The transcribed text will be printed to the console.
 
-4. Edit the silence_counter on line 39 to adjust how long silence needs to be before transcription starts.
+4. Edit the silence_counter on line 39 to adjust how long silence needs to be before transcription starts. < 40 waits for 4 seconds of silence, < 30 would wait for 3 seconds, and so on.
